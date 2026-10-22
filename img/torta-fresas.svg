@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Fondo -->
+  <circle cx="48" cy="48" r="44" fill="#fdeaf1"/>
+  <!-- Plato -->
+  <ellipse cx="48" cy="83" rx="37" ry="5" fill="#ecccdd" opacity=".8"/>
+  <!-- Piso inferior -->
+  <rect x="19" y="57" width="58" height="22" rx="8" fill="#ffefd8"/>
+  <rect x="19" y="52" width="58" height="12" rx="6" fill="#f9a8c0"/>
+  <circle cx="27" cy="65" r="4" fill="#f9a8c0"/>
+  <circle cx="38" cy="66" r="4" fill="#f9a8c0"/>
+  <circle cx="50" cy="66" r="4" fill="#f9a8c0"/>
+  <circle cx="61" cy="66" r="4" fill="#f9a8c0"/>
+  <circle cx="70" cy="65" r="4" fill="#f9a8c0"/>
+  <!-- Piso superior -->
+  <rect x="30" y="34" width="36" height="22" rx="7" fill="#ffefd8"/>
+  <rect x="30" y="30" width="36" height="11" rx="5.5" fill="#f9a8c0"/>
+  <circle cx="36" cy="43" r="3" fill="#f9a8c0"/>
+  <circle cx="46" cy="44" r="3" fill="#f9a8c0"/>
+  <circle cx="56" cy="43" r="3" fill="#f9a8c0"/>
+  <!-- Fresas arriba -->
+  <ellipse cx="34" cy="26" rx="4.5" ry="5.5" fill="#e0314c"/>
+  <ellipse cx="42" cy="24" rx="4.5" ry="5.5" fill="#e0314c"/>
+  <ellipse cx="50" cy="23" rx="4.5" ry="5.5" fill="#e0314c"/>
+  <ellipse cx="58" cy="24" rx="4.5" ry="5.5" fill="#e0314c"/>
+  <ellipse cx="65" cy="27" rx="4.2" ry="5.2" fill="#e0314c"/>
+  <circle cx="34" cy="19.5" r="1.6" fill="#8fcf7a"/>
+  <circle cx="42" cy="17.5" r="1.6" fill="#8fcf7a"/>
+  <circle cx="50" cy="16.5" r="1.6" fill="#8fcf7a"/>
+  <circle cx="58" cy="17.5" r="1.6" fill="#8fcf7a"/>
+  <circle cx="65" cy="20" r="1.6" fill="#8fcf7a"/>
+  <!-- Puntitos de brillo -->
+  <circle cx="27" cy="60" r="1.5" fill="#ffffff" opacity=".7"/>
+  <circle cx="34" cy="40" r="1.5" fill="#ffffff" opacity=".7"/>
+  <circle cx="60" cy="60" r="1.5" fill="#ffffff" opacity=".7"/>
+</svg>

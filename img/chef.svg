@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Fondo -->
+  <circle cx="48" cy="48" r="44" fill="#fdeaf1"/>
+  <!-- Gorro chef -->
+  <circle cx="36" cy="26" r="11" fill="#ffffff"/>
+  <circle cx="48" cy="20" r="12" fill="#ffffff"/>
+  <circle cx="60" cy="26" r="11" fill="#ffffff"/>
+  <rect x="30" y="26" width="36" height="16" rx="4" fill="#ffffff"/>
+  <rect x="30" y="38" width="36" height="5" fill="#f6c6d4"/>
+  <!-- Carita -->
+  <circle cx="48" cy="55" r="15" fill="#ffd9b3"/>
+  <circle cx="42.5" cy="52" r="1.8" fill="#5a3826"/>
+  <circle cx="53.5" cy="52" r="1.8" fill="#5a3826"/>
+  <path d="M43 59 q5 5 10 0" stroke="#5a3826" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="39" cy="56" r="2.4" fill="#f6a9c1" opacity=".8"/>
+  <circle cx="57" cy="56" r="2.4" fill="#f6a9c1" opacity=".8"/>
+  <!-- Delantal -->
+  <path d="M28 84 q4 -10 20 -10 q16 0 20 10 z" fill="#f27289"/>
+</svg>

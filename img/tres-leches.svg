@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Fondo -->
+  <circle cx="48" cy="48" r="44" fill="#fdf3e2"/>
+  <!-- Plato -->
+  <ellipse cx="48" cy="84" rx="36" ry="5" fill="#efd9b8" opacity=".8"/>
+  <!-- Torta (un piso) -->
+  <rect x="22" y="46" width="52" height="32" rx="9" fill="#fff6e3"/>
+  <!-- Capa lechosa con goteo -->
+  <rect x="26" y="40" width="44" height="10" rx="5" fill="#fffcf2"/>
+  <circle cx="34" cy="53" r="3.2" fill="#fffcf2"/>
+  <circle cx="44" cy="55" r="3.6" fill="#fffcf2"/>
+  <circle cx="56" cy="54" r="3.2" fill="#fffcf2"/>
+  <circle cx="66" cy="52" r="3" fill="#fffcf2"/>
+  <!-- Granillado -->
+  <circle cx="30" cy="64" r="1.7" fill="#f9a8c0"/>
+  <circle cx="40" cy="70" r="1.7" fill="#8fcf7a"/>
+  <circle cx="50" cy="66" r="1.7" fill="#f0a63c"/>
+  <circle cx="60" cy="71" r="1.7" fill="#f9a8c0"/>
+  <circle cx="69" cy="66" r="1.7" fill="#8fcf7a"/>
+  <circle cx="35" cy="75" r="1.7" fill="#f0a63c"/>
+  <circle cx="45" cy="78" r="1.7" fill="#f9a8c0"/>
+  <circle cx="62" cy="77" r="1.7" fill="#8fcf7a"/>
+  <!-- Cereza -->
+  <circle cx="48" cy="33" r="4" fill="#e0314c"/>
+  <circle cx="48" cy="27.5" r="1.4" fill="#8fcf7a"/>
+  <!-- Brillo -->
+  <circle cx="29" cy="50" r="1.5" fill="#ffffff" opacity=".8"/>
+  <circle cx="64" cy="48" r="1.5" fill="#ffffff" opacity=".8"/>
+</svg>

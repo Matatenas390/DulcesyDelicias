@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Fondo -->
+  <circle cx="48" cy="48" r="44" fill="#f6e7d7"/>
+  <!-- Plato -->
+  <ellipse cx="48" cy="82" rx="38" ry="5" fill="#e9c8b2" opacity=".8"/>
+  <!-- Capa de pastel -->
+  <rect x="22" y="48" width="52" height="30" rx="9" fill="#6b4226"/>
+  <!-- Relleno de vainilla -->
+  <rect x="22" y="59" width="52" height="5" fill="#f3d3ac"/>
+  <!-- Ganache -->
+  <rect x="22" y="40" width="52" height="13" rx="6" fill="#4e2c18"/>
+  <circle cx="28" cy="56" r="3.5" fill="#4e2c18"/>
+  <circle cx="38" cy="57" r="3.5" fill="#4e2c18"/>
+  <circle cx="50" cy="57" r="3.5" fill="#4e2c18"/>
+  <circle cx="61" cy="57" r="3.5" fill="#4e2c18"/>
+  <circle cx="70" cy="56" r="3.5" fill="#4e2c18"/>
+  <!-- Cereza -->
+  <circle cx="48" cy="34" r="5.5" fill="#e0314c"/>
+  <circle cx="46" cy="32" r="1.5" fill="#fbdbe8"/>
+  <path d="M48 28c1.5-2.5 4-3.5 6-3.5" stroke="#8fcf7a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Polvo de cacao -->
+  <circle cx="30" cy="52" r="1.4" fill="#8a5a36"/>
+  <circle cx="35" cy="70" r="1.4" fill="#8a5a36"/>
+  <circle cx="55" cy="68" r="1.4" fill="#8a5a36"/>
+  <circle cx="68" cy="70" r="1.4" fill="#8a5a36"/>
+</svg>

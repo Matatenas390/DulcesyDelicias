@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Fondo -->
+  <circle cx="48" cy="48" r="44" fill="#fdeed9"/>
+  <!-- Alfajor de atrás -->
+  <circle cx="69" cy="40" r="13" fill="#f3d3a1"/>
+  <rect x="56" y="38" width="26" height="5" rx="2.5" fill="#c9821f"/>
+  <!-- Alfajor principal -->
+  <circle cx="43" cy="52" r="17" fill="#f3d3a1"/>
+  <circle cx="43" cy="63" r="17" fill="#e7bd82"/>
+  <rect x="26" y="54" width="34" height="7" rx="3.5" fill="#c9821f"/>
+  <!-- Puntitos de azúcar -->
+  <circle cx="36" cy="45" r="1.5" fill="#ffffff"/>
+  <circle cx="50" cy="43" r="1.5" fill="#ffffff"/>
+  <circle cx="43" cy="50" r="1.5" fill="#ffffff"/>
+  <circle cx="66" cy="34" r="1.4" fill="#ffffff"/>
+  <circle cx="74" cy="36" r="1.4" fill="#ffffff"/>
+  <!-- Migas -->
+  <circle cx="72" cy="76" r="1.8" fill="#f3d3a1"/>
+  <circle cx="22" cy="80" r="1.5" fill="#e7bd82"/>
+  <!-- Brillo -->
+  <circle cx="35" cy="58" r="1.4" fill="#ffffff" opacity=".7"/>
+</svg>

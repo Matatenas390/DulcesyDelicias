@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Fondo -->
+  <circle cx="48" cy="48" r="44" fill="#f6e3d5"/>
+  <!-- Plato -->
+  <ellipse cx="48" cy="83" rx="33" ry="4.5" fill="#e3c3ab" opacity=".8"/>
+  <!-- Papeleta del cupcake -->
+  <path d="M32 50 L38 78 Q39 82 44 82 H52 Q57 82 58 78 L64 50 Z" fill="#a8683f"/>
+  <path d="M40 53 l3 27 M48 53 l0 28 M56 53 l-3 27" stroke="#8a4f2d" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Crema de chocolate -->
+  <circle cx="40" cy="46" r="9" fill="#5a3826"/>
+  <circle cx="56" cy="46" r="9" fill="#5a3826"/>
+  <circle cx="48" cy="40" r="9.5" fill="#6b4430"/>
+  <circle cx="48" cy="47" r="8" fill="#5a3826"/>
+  <!-- Chispas -->
+  <circle cx="40" cy="41" r="1.6" fill="#f9d89a"/>
+  <circle cx="53" cy="38" r="1.6" fill="#f9d89a"/>
+  <circle cx="47" cy="45" r="1.6" fill="#fbdfe8"/>
+  <!-- Brillo -->
+  <circle cx="42" cy="43" r="1.4" fill="#ffffff" opacity=".5"/>
+  <circle cx="54" cy="44" r="1.4" fill="#ffffff" opacity=".5"/>
+</svg>

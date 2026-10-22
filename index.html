@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dulces y Delicias | Repostería artesanal en Lima</title>
+  <meta name="description" content="Pasteles, cupcakes y galletas recién horneadas. Pedidos por WhatsApp y delivery en Lima." />
+  <meta name="theme-color" content="#e0557b" />
+  <link rel="canonical" href="https://matatenas390.github.io/DulcesyDelicias/" />
+  <!-- Open Graph: así se ve la página al compartirla por WhatsApp/Facebook -->
+  <meta property="og:title" content="Dulces y Delicias | Repostería artesanal en Lima" />
+  <meta property="og:description" content="Pasteles, cupcakes y galletas recién horneadas. Pedidos por WhatsApp y delivery en Lima." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://matatenas390.github.io/DulcesyDelicias/" />
+  <meta property="og:site_name" content="Dulces y Delicias" />
+  <meta property="og:locale" content="es_PE" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Dulces y Delicias | Repostería artesanal en Lima" />
+  <meta name="twitter:description" content="Pasteles, cupcakes y galletas recién horneadas. Pedidos por WhatsApp y delivery en Lima." />
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="pg-inicio" data-pagina="index">
+
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="header">
+    <nav class="container barra" aria-label="Navegación principal">
+      <a class="marca" href="index.html">
+        <img src="img/logo.svg" alt="" width="42" height="42" />
+        <span class="marca__texto">Dulces <em>y</em> Delicias</span>
+      </a>
+
+      <ul class="menu" id="menu">
+        <li><a href="index.html" aria-current="page">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+
+      <div class="barra__acciones">
+        <button id="btn-carrito" class="btn btn--icono" aria-label="Abrir mi pedido">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+            <path d="M6 7h12l-1.2 13H7.2L6 7z" fill="currentColor"/>
+            <path d="M9 7a3 3 0 0 1 6 0" fill="none" stroke="currentColor" stroke-width="2"/>
+          </svg>
+          <span id="badge-carrito" class="badge" hidden>0</span>
+        </button>
+        <button id="btn-menu" class="btn btn--icono btn-menu" aria-expanded="false" aria-controls="menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- ===== HERO: lo primero que se ve al entrar ===== -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__texto">
+          <p class="etiqueta">Hecho con amor en cada hornada 🍓</p>
+          <h1>Dulces <span class="subrayado">y</span> Delicias</h1>
+          <p class="hero__frase">
+            Pasteles, cupcakes y galletas horneadas cada mañana con insumos de verdad,
+            para aniversarios, cumpleaños o ese antojo de media tarde.
+          </p>
+          <div class="hero__acciones">
+            <a href="productos.html" class="btn btn--primario btn--grande">Ver productos 🍰</a>
+            <a href="#como-pedir" class="btn btn--contorno btn--grande">¿Cómo pedir?</a>
+          </div>
+          <ul class="hero__mini">
+            <li>⭐ 4.9 de valoración</li>
+            <li>🚚 Delivery en Lima</li>
+            <li>🎂 Pedidos personalizados</li>
+          </ul>
+        </div>
+
+        <div class="hero__arte">
+          <img src="img/torta-fresas.svg" alt="Torta de fresas con dos pisos" width="300" height="300" decoding="async" />
+          <span class="flotante" style="--x:2%;  --y:8%;  --d:.3s">🍓</span>
+          <span class="flotante" style="--x:78%; --y:2%;  --d:0s">🧁</span>
+          <span class="flotante" style="--x:86%; --y:66%; --d:.6s">🍪</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CINTA EN MOVIMIENTO ===== -->
+    <div class="cinta" aria-hidden="true">
+      <div class="cinta__pista" id="cinta-pista">
+        <span>✦ Recién horneado cada mañana</span>
+        <span>✦ Pedidos y delivery por WhatsApp</span>
+        <span>✦ Tortas a medida para tus eventos</span>
+        <span>✦ Repostería artesanal desde 2015</span>
+      </div>
+    </div>
+
+    <!-- ===== PRODUCTOS DESTACADOS ===== -->
+    <section id="destacados" class="seccion container">
+      <h2 class="titulo-seccion aparecer">Los favoritos de la casa 🧁</h2>
+      <p class="seccion-sub aparecer">Lo que nunca falta en nuestros mostradores…</p>
+      <div class="grid-producto" id="grid-destacados"></div>
+      <div class="centrado aparecer">
+        <a href="productos.html" class="btn btn--primario">Ver todo el catálogo →</a>
+      </div>
+    </section>
+
+    <!-- ===== CÓMO PEDIR ===== -->
+    <section id="como-pedir" class="seccion seccion--rosa">
+      <div class="container">
+        <h2 class="titulo-seccion aparecer">Pedir es facilísimo</h2>
+        <ol class="pasos">
+          <li class="aparecer" style="--retraso:.05s">
+            <span class="paso__num">1</span>
+            <h3>Explora el catálogo</h3>
+            <p>Elige tus dulces en la pestaña <strong>Productos</strong> por categorías.</p>
+          </li>
+          <li class="aparecer" style="--retraso:.15s">
+            <span class="paso__num">2</span>
+            <h3>Agrega al pedido</h3>
+            <p>Usa el botón <strong>＋ Añadir</strong>; tu pedido se guarda aunque cierres la página.</p>
+          </li>
+          <li class="aparecer" style="--retraso:.25s">
+            <span class="paso__num">3</span>
+            <h3>Confirma por WhatsApp</h3>
+            <p>Con un clic enviamos tu resumen listo; coordinamos pago y delivery.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIOS ===== -->
+    <section class="seccion container">
+      <h2 class="titulo-seccion aparecer">Clientes felices 🩷</h2>
+      <div class="grid-comentario">
+        <figure class="comentario aparecer" style="--retraso:0s">
+          <p>“Pedí la torta de fresas para el cumple de mi mamá y llegó puntual, intacta y deliciosa. ¡Se repetirá!”</p>
+          <figcaption>— Lucía M. <span class="estrellas">★★★★★</span></figcaption>
+        </figure>
+        <figure class="comentario aparecer" style="--retraso:.12s">
+          <p>“Las galletas ya son un clásico en la oficina de mi papá. Pide cada semana.”</p>
+          <figcaption>— Camila R. <span class="estrellas">★★★★★</span></figcaption>
+        </figure>
+        <figure class="comentario aparecer" style="--retraso:.24s">
+          <p>“Diseñaron la torta de dos pisos de mi boda tal cual la imaginé. Atención de 100.”</p>
+          <figcaption>— Diego T. <span class="estrellas">★★★★★</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== LLAMADO FINAL ===== -->
+    <section class="banda-cta">
+      <div class="container banda-cta__flex">
+        <div>
+          <h2>¿Celebrando algo pronto? 🎉</h2>
+          <p>Arma tu pedido ahora y lo coordinamos contigo por WhatsApp.</p>
+        </div>
+        <a class="btn btn--blanco btn--grande" href="productos.html">Armar mi pedido</a>
+      </div>
+      <div class="ola" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <!-- ===== PIE DE PÁGINA ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__marca">
+        <img src="img/logo.svg" alt="Logotipo de Dulces y Delicias" width="52" height="52" />
+        <p><strong>Dulces y Delicias</strong></p>
+        <p class="footer__frase">Repostería artesanal hecha con amor desde 2015, en el corazón de Lima.</p>
+        <div class="redes">
+          <a class="red" href="https://wa.me/51987654321" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M4 4h16v12H9l-5 4z"/></svg>
+          </a>
+          <a class="red" href="#" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.2" cy="6.8" r="1.3" fill="currentColor"/></svg>
+          </a>
+          <a class="red" href="#" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M14.5 3H12c-2.3 0-3.6 1.4-3.6 3.6V9H6.5v3H8.4v9h3.2v-9h2.5l.4-3h-2.9V6.9c0-.9.3-1.3 1.3-1.3h1.6z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <nav class="footer__col" aria-label="Pestañas del sitio">
+        <p class="footer__titulo">Pestañas</p>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__col">
+        <p class="footer__titulo">Horario</p>
+        <ul class="footer__data">
+          <li>Lun – Vie: 9:00 – 20:00</li>
+          <li>Sábado: 9:00 – 21:00</li>
+          <li>Domingo: 10:00 – 14:00</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <p class="footer__titulo">Contacto</p>
+        <ul class="footer__data">
+          <li>📍 Av. Los Dulces 123, SJL, Lima</li>
+          <li>📞 +51 987 654 321</li>
+          <li>✉️ hola@dulcesydelicias.pe</li>
+        </ul>
+        <a class="btn btn--whatsapp btn--mini" target="_blank" rel="noopener noreferrer"
+           href="https://wa.me/51987654321?text=%C2%A1Hola%20Dulces%20y%20Delicias!%20%F0%9F%A7%81%20Quiero%20hacer%20un%20pedido.">Pedir por WhatsApp</a>
+      </div>
+    </div>
+    <p class="footer__legal">© <span class="anio">2026</span> Dulces y Delicias — Hecho con 🍓 y cariño en Lima.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

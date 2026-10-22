@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Fondo -->
+  <circle cx="48" cy="48" r="44" fill="#fdeff2"/>
+  <!-- Macaron fresa -->
+  <ellipse cx="30" cy="54" rx="15" ry="8" fill="#f6a9c1"/>
+  <rect x="16" y="58.5" width="28" height="6" rx="3" fill="#fff5e6"/>
+  <ellipse cx="30" cy="68" rx="15" ry="8" fill="#ef8fae"/>
+  <!-- Macaron caramelo -->
+  <ellipse cx="48" cy="34" rx="15" ry="8" fill="#f3c37b"/>
+  <rect x="34" y="38.5" width="28" height="6" rx="3" fill="#fff3d9"/>
+  <ellipse cx="48" cy="48" rx="15" ry="8" fill="#e8ad5a"/>
+  <!-- Macaron menta -->
+  <ellipse cx="66" cy="66" rx="15" ry="8" fill="#bfe0c6"/>
+  <rect x="52" y="70.5" width="28" height="6" rx="3" fill="#fff7ef"/>
+  <ellipse cx="66" cy="80" rx="15" ry="8" fill="#97cfa5"/>
+  <!-- Destellos -->
+  <circle cx="25" cy="52" r="1.4" fill="#ffffff" opacity=".6"/>
+  <circle cx="43" cy="32" r="1.4" fill="#ffffff" opacity=".6"/>
+  <circle cx="61" cy="64" r="1.4" fill="#ffffff" opacity=".6"/>
+</svg>

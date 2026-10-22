@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <!-- Fondo -->
+  <circle cx="48" cy="48" r="44" fill="#fdeed9"/>
+  <!-- Galleta de atrás -->
+  <circle cx="61" cy="38" r="14" fill="#dca760"/>
+  <circle cx="57" cy="34" r="2" fill="#5a3826"/>
+  <circle cx="64" cy="30" r="2" fill="#5a3826"/>
+  <circle cx="65" cy="40" r="2" fill="#5a3826"/>
+  <!-- Galleta principal -->
+  <circle cx="38" cy="56" r="22" fill="#e8b874"/>
+  <path d="M26 50q6-4 9 1M34 66q6 3 10-2M44 52q5-2 8 2" stroke="#c98a3f" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="31" cy="47" r="2.4" fill="#5a3826"/>
+  <circle cx="44" cy="42" r="2.4" fill="#5a3826"/>
+  <circle cx="40" cy="60" r="2.4" fill="#5a3826"/>
+  <circle cx="29" cy="62" r="2.4" fill="#5a3826"/>
+  <circle cx="50" cy="55" r="2.4" fill="#5a3826"/>
+  <!-- Migas -->
+  <circle cx="70" cy="78" r="2" fill="#e8b874"/>
+  <circle cx="24" cy="84" r="2" fill="#e8b874"/>
+  <circle cx="55" cy="84" r="1.6" fill="#dca760"/>
+</svg>
