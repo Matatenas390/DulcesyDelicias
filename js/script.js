@@ -7,7 +7,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 
   /* =========== 1. CONFIGURACIÓN Y DATOS =========== */
-  const TELEFONO = "51987654321"; // Número de WhatsApp de la tienda (sin + ni espacios)
+  const TELEFONO = "51934276907"; // Número de WhatsApp de la tienda (sin + ni espacios)
   const CLAVE_PEDIDO = "dd_pedido"; // Clave usada en localStorage para guardar el pedido
 
   const PRODUCTOS = [
